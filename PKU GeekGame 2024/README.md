@@ -24,9 +24,9 @@ set-sink-volume 0 0x4000
 list-sinks
 ```
 
-![](img/75%.png)
+![](img/75.png)
 
-![](img/25%.png)
+![](img/25.png)
 
 再进行一个减法运算并四舍五入就是答案了。
 
