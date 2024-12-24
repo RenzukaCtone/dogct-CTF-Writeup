@@ -1,0 +1,39 @@
+n
+n
+e
+pickup key
+w
+s
+s
+e
+e
+s
+usewith key door
+s
+s
+n
+w
+w
+w
+n
+pickup key
+s
+e
+e
+e
+n
+n
+n
+e
+pickup trinket
+w
+w
+n
+n
+w
+w
+usewith key door
+
+use trinket
+n
+

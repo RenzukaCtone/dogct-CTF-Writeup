@@ -1,0 +1,49 @@
+  sub_1170(&std::cout, "Please input the flag: ", v3);
+  v21 = v5;
+  if ( v5 == 36 )
+  {
+    v22 = v7;
+    for ( i = 0; i < v21; ++i )
+    {
+      mint::mint((mint *)&v17, *v9);
+      v8 = v22 + 4LL * i;
+      *(_DWORD *)v8 = v17;
+    }
+    for ( j = 1; j <= v21; ++j )
+    {
+      v15 = 0;
+      v16 = 1;
+      for ( k = 0; k < v21; ++k )
+      {
+        v10 = mint::operator*(v22 + 4LL * k, v16);
+        mint::operator+=(&v15, v10);
+        mint::mint((mint *)&v17, j);
+        mint::operator*=(&v16, v17);
+      }
+      v8 = v15;
+      if ( v15 != off_5020[j - 1] )
+      {
+        sub_1170(&std::cout, "Failed, please try again!", v15);
+        v6 = 1;
+        goto LABEL_15;
+      }
+    }
+    sub_1170(&std::cout, "Congratulations! You got the flag1!", v8);
+    v6 = 0;
+  }
+off_5020 16C8070900000CF6h
+
+16 C8 07 09 00 00 0C F6
+32
+mallocmem = 144
+pcvar3 = typewords pointer
+local64 = typeword first
+mallocmem pointer writed local64
+then mallocmem got the typewords
+
+mvar1 = firstword * 1(local68)
+6c +=mvar1 = firstword
+local64 = 1
+local68 = local68*local64 = 1
+mvar = secondword * 1
+6c = w1+w2
